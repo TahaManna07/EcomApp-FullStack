@@ -1,0 +1,254 @@
+{
+  "authorities": [
+    {
+      "authority": "default-roles-sdia-realm"
+    },
+    {
+      "authority": "SCOPE_email"
+    },
+    {
+      "authority": "offline_access"
+    },
+    {
+      "authority": "uma_authorization"
+    },
+    {
+      "authority": "ADMIN"
+    },
+    {
+      "authority": "USER"
+    },
+    {
+      "authority": "SCOPE_profile"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": null
+  },
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1M19VTTFnOFZaOVdCanl4Y3U4bFZ1ZDA0NHR5ZFhxSDdjemkwaTgtNFJNIn0.eyJleHAiOjE3MzM2OTEzOTQsImlhdCI6MTczMzY5MTA5NCwianRpIjoiN2FhODEyZjktMjY0Yy00YmMyLWIzMGYtODcwN2Q2ZDkzZmUyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9zZGlhLXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6Ijk0ZDFlZTc4LWY1M2EtNGM4Yi05MDViLTBlODA1ZTFlZDVmMyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImVjb20tY2xpZW50LWFuZ3VsYXIiLCJzZXNzaW9uX3N0YXRlIjoiNTgyN2E2NDItZjc3Ni00ODAwLThlNmQtNGFlNDFkMTU4OTkxIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtc2RpYS1yZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJBRE1JTiIsIlVTRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI1ODI3YTY0Mi1mNzc2LTQ4MDAtOGU2ZC00YWU0MWQxNTg5OTEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJTb3VoYWlsICBNYW5uYSIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIyIiwiZ2l2ZW5fbmFtZSI6IlNvdWhhaWwgIiwiZmFtaWx5X25hbWUiOiJNYW5uYSIsImVtYWlsIjoidXNlcjJAZ21haWwuY29tIn0.RGYMORv1rkO4w0qcywP5iabS0_vVN2kC1RJO9O3Z0b4NcDdDoTW7VRIvqTJidTwz-W0lrsbZSpITPC9Bj5H38GOullMwGmqSU5BdVMBAWLOmSQp7csWuPS90fYGLPBYhOLZYLDRaKGVOe6jYk2fUqezOux5eGv9QmVSeK60XvrCjhvpGP_pHwCilVppZeyr7OXd1c2LYOcl-mUUtUAzuyLsSHB3k1E_pk5Z7k0HYN_GgER1-qZyh4ZMX2M30Y6R5ESLVi1bWGQgC0uF2mPSX3xPnRGP_7qYGyuwPnP99FoyJ2V05dWEWsoduU2TY4lS1maOn1mvMxK6pNgI1dJn_Zg",
+    "issuedAt": "2024-12-08T20:51:34Z",
+    "expiresAt": "2024-12-08T20:56:34Z",
+    "headers": {
+      "kid": "53_UM1g8VZ9WBjyxcu8lVud044tydXqH7czi0i8-4RM",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "94d1ee78-f53a-4c8b-905b-0e805e1ed5f3",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        ""
+      ],
+      "iss": "http://localhost:8080/realms/sdia-realm",
+      "typ": "Bearer",
+      "preferred_username": "user2",
+      "given_name": "Souhail ",
+      "sid": "5827a642-f776-4800-8e6d-4ae41d158991",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "default-roles-sdia-realm",
+          "offline_access",
+          "uma_authorization",
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "azp": "ecom-client-angular",
+      "scope": "email profile",
+      "name": "Souhail  Manna",
+      "exp": "2024-12-08T20:56:34Z",
+      "session_state": "5827a642-f776-4800-8e6d-4ae41d158991",
+      "iat": "2024-12-08T20:51:34Z",
+      "family_name": "Manna",
+      "jti": "7aa812f9-264c-4bc2-b30f-8707d6d93fe2",
+      "email": "user2@gmail.com"
+    },
+    "id": "7aa812f9-264c-4bc2-b30f-8707d6d93fe2",
+    "subject": "94d1ee78-f53a-4c8b-905b-0e805e1ed5f3",
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/sdia-realm",
+    "audience": [
+      "account"
+    ]
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1M19VTTFnOFZaOVdCanl4Y3U4bFZ1ZDA0NHR5ZFhxSDdjemkwaTgtNFJNIn0.eyJleHAiOjE3MzM2OTEzOTQsImlhdCI6MTczMzY5MTA5NCwianRpIjoiN2FhODEyZjktMjY0Yy00YmMyLWIzMGYtODcwN2Q2ZDkzZmUyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9zZGlhLXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6Ijk0ZDFlZTc4LWY1M2EtNGM4Yi05MDViLTBlODA1ZTFlZDVmMyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImVjb20tY2xpZW50LWFuZ3VsYXIiLCJzZXNzaW9uX3N0YXRlIjoiNTgyN2E2NDItZjc3Ni00ODAwLThlNmQtNGFlNDFkMTU4OTkxIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtc2RpYS1yZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJBRE1JTiIsIlVTRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI1ODI3YTY0Mi1mNzc2LTQ4MDAtOGU2ZC00YWU0MWQxNTg5OTEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJTb3VoYWlsICBNYW5uYSIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIyIiwiZ2l2ZW5fbmFtZSI6IlNvdWhhaWwgIiwiZmFtaWx5X25hbWUiOiJNYW5uYSIsImVtYWlsIjoidXNlcjJAZ21haWwuY29tIn0.RGYMORv1rkO4w0qcywP5iabS0_vVN2kC1RJO9O3Z0b4NcDdDoTW7VRIvqTJidTwz-W0lrsbZSpITPC9Bj5H38GOullMwGmqSU5BdVMBAWLOmSQp7csWuPS90fYGLPBYhOLZYLDRaKGVOe6jYk2fUqezOux5eGv9QmVSeK60XvrCjhvpGP_pHwCilVppZeyr7OXd1c2LYOcl-mUUtUAzuyLsSHB3k1E_pk5Z7k0HYN_GgER1-qZyh4ZMX2M30Y6R5ESLVi1bWGQgC0uF2mPSX3xPnRGP_7qYGyuwPnP99FoyJ2V05dWEWsoduU2TY4lS1maOn1mvMxK6pNgI1dJn_Zg",
+    "issuedAt": "2024-12-08T20:51:34Z",
+    "expiresAt": "2024-12-08T20:56:34Z",
+    "headers": {
+      "kid": "53_UM1g8VZ9WBjyxcu8lVud044tydXqH7czi0i8-4RM",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "94d1ee78-f53a-4c8b-905b-0e805e1ed5f3",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        ""
+      ],
+      "iss": "http://localhost:8080/realms/sdia-realm",
+      "typ": "Bearer",
+      "preferred_username": "user2",
+      "given_name": "Souhail ",
+      "sid": "5827a642-f776-4800-8e6d-4ae41d158991",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "default-roles-sdia-realm",
+          "offline_access",
+          "uma_authorization",
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "azp": "ecom-client-angular",
+      "scope": "email profile",
+      "name": "Souhail  Manna",
+      "exp": "2024-12-08T20:56:34Z",
+      "session_state": "5827a642-f776-4800-8e6d-4ae41d158991",
+      "iat": "2024-12-08T20:51:34Z",
+      "family_name": "Manna",
+      "jti": "7aa812f9-264c-4bc2-b30f-8707d6d93fe2",
+      "email": "user2@gmail.com"
+    },
+    "id": "7aa812f9-264c-4bc2-b30f-8707d6d93fe2",
+    "subject": "94d1ee78-f53a-4c8b-905b-0e805e1ed5f3",
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/sdia-realm",
+    "audience": [
+      "account"
+    ]
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1M19VTTFnOFZaOVdCanl4Y3U4bFZ1ZDA0NHR5ZFhxSDdjemkwaTgtNFJNIn0.eyJleHAiOjE3MzM2OTEzOTQsImlhdCI6MTczMzY5MTA5NCwianRpIjoiN2FhODEyZjktMjY0Yy00YmMyLWIzMGYtODcwN2Q2ZDkzZmUyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9zZGlhLXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6Ijk0ZDFlZTc4LWY1M2EtNGM4Yi05MDViLTBlODA1ZTFlZDVmMyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImVjb20tY2xpZW50LWFuZ3VsYXIiLCJzZXNzaW9uX3N0YXRlIjoiNTgyN2E2NDItZjc3Ni00ODAwLThlNmQtNGFlNDFkMTU4OTkxIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtc2RpYS1yZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJBRE1JTiIsIlVTRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI1ODI3YTY0Mi1mNzc2LTQ4MDAtOGU2ZC00YWU0MWQxNTg5OTEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJTb3VoYWlsICBNYW5uYSIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIyIiwiZ2l2ZW5fbmFtZSI6IlNvdWhhaWwgIiwiZmFtaWx5X25hbWUiOiJNYW5uYSIsImVtYWlsIjoidXNlcjJAZ21haWwuY29tIn0.RGYMORv1rkO4w0qcywP5iabS0_vVN2kC1RJO9O3Z0b4NcDdDoTW7VRIvqTJidTwz-W0lrsbZSpITPC9Bj5H38GOullMwGmqSU5BdVMBAWLOmSQp7csWuPS90fYGLPBYhOLZYLDRaKGVOe6jYk2fUqezOux5eGv9QmVSeK60XvrCjhvpGP_pHwCilVppZeyr7OXd1c2LYOcl-mUUtUAzuyLsSHB3k1E_pk5Z7k0HYN_GgER1-qZyh4ZMX2M30Y6R5ESLVi1bWGQgC0uF2mPSX3xPnRGP_7qYGyuwPnP99FoyJ2V05dWEWsoduU2TY4lS1maOn1mvMxK6pNgI1dJn_Zg",
+    "issuedAt": "2024-12-08T20:51:34Z",
+    "expiresAt": "2024-12-08T20:56:34Z",
+    "headers": {
+      "kid": "53_UM1g8VZ9WBjyxcu8lVud044tydXqH7czi0i8-4RM",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "94d1ee78-f53a-4c8b-905b-0e805e1ed5f3",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        ""
+      ],
+      "iss": "http://localhost:8080/realms/sdia-realm",
+      "typ": "Bearer",
+      "preferred_username": "user2",
+      "given_name": "Souhail ",
+      "sid": "5827a642-f776-4800-8e6d-4ae41d158991",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "default-roles-sdia-realm",
+          "offline_access",
+          "uma_authorization",
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "azp": "ecom-client-angular",
+      "scope": "email profile",
+      "name": "Souhail  Manna",
+      "exp": "2024-12-08T20:56:34Z",
+      "session_state": "5827a642-f776-4800-8e6d-4ae41d158991",
+      "iat": "2024-12-08T20:51:34Z",
+      "family_name": "Manna",
+      "jti": "7aa812f9-264c-4bc2-b30f-8707d6d93fe2",
+      "email": "user2@gmail.com"
+    },
+    "id": "7aa812f9-264c-4bc2-b30f-8707d6d93fe2",
+    "subject": "94d1ee78-f53a-4c8b-905b-0e805e1ed5f3",
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/sdia-realm",
+    "audience": [
+      "account"
+    ]
+  },
+  "name": "user2",
+  "tokenAttributes": {
+    "sub": "94d1ee78-f53a-4c8b-905b-0e805e1ed5f3",
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "email_verified": false,
+    "allowed-origins": [
+      ""
+    ],
+    "iss": "http://localhost:8080/realms/sdia-realm",
+    "typ": "Bearer",
+    "preferred_username": "user2",
+    "given_name": "Souhail ",
+    "sid": "5827a642-f776-4800-8e6d-4ae41d158991",
+    "aud": [
+      "account"
+    ],
+    "acr": "1",
+    "realm_access": {
+      "roles": [
+        "default-roles-sdia-realm",
+        "offline_access",
+        "uma_authorization",
+        "ADMIN",
+        "USER"
+      ]
+    },
+    "azp": "ecom-client-angular",
+    "scope": "email profile",
+    "name": "Souhail  Manna",
+    "exp": "2024-12-08T20:56:34Z",
+    "session_state": "5827a642-f776-4800-8e6d-4ae41d158991",
+    "iat": "2024-12-08T20:51:34Z",
+    "family_name": "Manna",
+    "jti": "7aa812f9-264c-4bc2-b30f-8707d6d93fe2",
+    "email": "user2@gmail.com"
+  }
+}

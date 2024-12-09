@@ -1,0 +1,20 @@
+[
+  {
+    "id": "7f177e48-8f81-4ce1-beda-106a9b30cc9f",
+    "name": "Taha",
+    "price": 25000.0,
+    "quantity": 150
+  },
+  {
+    "id": "d8df8573-2eee-4af4-b91c-5fdfba4d5d89",
+    "name": "Souhail",
+    "price": 14000.0,
+    "quantity": 160
+  },
+  {
+    "id": "c6f996dc-9d7a-47b7-8fb6-4302edfb2eb7",
+    "name": "manna",
+    "price": 65000.0,
+    "quantity": 170
+  }
+]
